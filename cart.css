@@ -1,0 +1,414 @@
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #faf6f6;
+    color: #0a0a0a;
+    height: 50px;
+    padding: 0 20px;
+    border-bottom: 4px solid #ccc;
+    height: 100px;
+}
+.navbar2 {
+width: 100%;
+background-color: white}
+
+.nav-left {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+
+}
+
+.nav-left a { position: relative;
+margin: 0 25px;
+color: #333;
+text-decoration: none;
+font-size: 18px;
+left: 40px;
+transition: color 0.3s ease-in-out;
+
+}
+
+.nav-left a:hover {
+color: #f007a2;
+}
+
+.section-3 i {
+margin: 1px 2px;
+color: #bda9a9;
+font-size: 18px;
+transition: color 0.3s ease-in-out;
+}
+
+.section-3 i:hover {
+color: black;
+}
+
+.navbar2 .navlift a { display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar i {font-size: 18px;
+color: #5e5e5e;
+padding: 08px;}
+
+.navbar .section-2 {position: relative;
+    left: -50px;
+     border: 3px solid black;
+padding: 8px;}
+
+.navbar a {
+    color: #0e0d0d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    border: none;
+outline: none;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.navbar3 {
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+background-color: #faf6f6
+}
+
+.navbar3 { display: flex;
+align-items: center;
+}
+
+.navbar3 a { text-decoration: none;
+color: black;
+margin-left: 10px;
+margin-right: 10px;}
+
+.navbar3 .navleft11 {
+    margin-left: 30px;
+}
+
+.navbar3 .slash{margin-left: 15px;}
+
+.nav-left1 a {
+    font-weight: bold;
+    }
+
+.nav-left1 a:hover {
+    
+    color: #f007a2;
+    }
+
+
+    .section-4 {height: 700px;}
+
+    table {
+        
+        width: 1200px;
+        margin-left: 65px;
+        margin-top: 100px;
+        height: 300px;
+        border-collapse: collapse;
+      }
+
+      
+      th, td {
+        
+        padding: 45px;
+        border: 1px solid #ddd;
+      }
+
+      
+
+      th {
+        background-color: white;
+        font-weight: bold;
+      }
+
+      .quantity {
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 20px;
+        
+        
+      }
+      
+      .quantity .input {
+        width: 40px;
+        height: 30px;
+        text-align: center;
+      }
+
+      .quantity button {
+        width: 40px;
+        height: 38px;
+        border: 1px solid #f007a2 ;
+        background-color: #eaeaea;
+        cursor: pointer;
+      }
+      
+      .quantity button:hover {
+        background-color: #f007a2;
+      }
+      
+      .quantity button:focus {
+        outline: none;
+      }
+
+      .purple-button {
+        width: 50px;
+        height: 50px;
+        background-color: purple;
+        color: white;
+        border: none;
+        font-size: 24px;
+        margin-left: 20px;
+      }
+
+      .section-5{height: 400px;}
+      
+.button-container {
+    display: flex;
+  }
+  .coupon1{padding-left: 70px;
+    }
+
+
+  .button {
+    width: 300px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    position:relative ;
+    left: 70px;
+    top: -40px;
+  }
+  .button:hover {
+    background-color: rgb(100, 3, 100);
+  }
+
+
+  .button2 {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    position:relative ;
+    left: 70px;
+    top: -40px;
+  }
+
+  .coupon-container {
+    display: flex;
+    align-items: start;
+    
+  }
+  
+  .coupon-container input[type="text"] {
+    margin-right: 20px;
+    width: 400px;
+    height: 40px;
+  }
+  
+  .coupon-container button {
+    background-color: purple;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+   
+  }
+  
+  .coupon-container button:hover {
+    background-color: rgb(100, 3, 100)
+  }
+  
+  .pp{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(104, 103, 103);
+font-size: medium;}
+
+    .h2cart{position: relative;
+    top: -250px;
+    margin-left: 1100px;
+
+    }
+
+    .hr11{position: relative;
+    right: 150px;
+    width:320px;}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .ull {
+    display: flex;
+    justify-content: space-between;
+    width: 300px; 
+  }
+  
+  .ull ul {
+    list-style: none;
+    color:rgb(66, 66, 66) ;
+    font-size: large;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+    margin-right: 0px;
+    position: relative;
+    top: -210px;
+    right: 80px;
+    
+  }
+  
+  .ull ul li {
+    margin-bottom: 10px;
+  }
+
+  
+
+
+  .button4 {
+    width: 300px;
+    height: 50px;
+    background-color: purple;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+    position:relative ;
+    left: 960px;
+    top: -150px;
+  }
+  .button4:hover {
+    background-color: rgb(100, 3, 100);
+  }
+
+  footer {
+    display: flex;
+    justify-content:space-around;
+    height: 0px;
+  }
+
+  footer{position: relative;
+     top: 100px;}
+
+  footer ul {list-style-type: none;
+    line-height: 2;}
+    
+
+    .nava1{position: relative;
+        left: 40px;}
+        
+        .div0{ position: relative;
+        right: -50px;
+        width: 200px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        
+        .div1 {position: relative;
+        top: 44px;
+        right: -50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        
+        .div2 {position: relative;
+        top: 44px;
+        right: -50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        
+        .div3{position: relative;
+        width: 200px;
+        right: -110px; 
+        }
+
+        .div3 .heroimg{width: 320px;}
+        
+        .div3 .finding {color: #9b2895;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+        .Promo {width: 250px;}
+        
+        .div4{position: relative;
+        width: 300px;
+        right: -240px; }
+        
+        .li1{position: relative;
+        left: -40px;}
+        
+        
+        .icon-list li i {margin-right: 10px;
+        color: #9b2895;}
+        
+        .inputmail {
+          display: flex;
+          flex-direction: column; 
+          align-items: start; 
+        }
+        
+        .inputmail{position: relative;
+        top: 250px;
+        left: -80px;}
+        
+        
+        .input-container {
+          display: flex;
+          align-items: center;}
+          
+        
+        .input-container input[type="email"] {
+          margin-right: 0px; 
+         outline: none;
+         width: 180px ;
+         height: 30px;
+        }
+        
+        .input-container .submit  { height: 36px;
+        background-color: #f007a2;}
+
+        .lastdiv {
+            text-align: center;
+            padding: 10px;
+            background-color: #f2f2f2;
+          }
+
+        .lastdiv{position: relative;
+        top: 600px;}
+          
+          .lastdiv p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #5a5a5a;
+            margin: 0;
+          }
+          
+          .lastdiv span {
+            color:  #f007a2;
+            
+          }
+      
+
+
+  
